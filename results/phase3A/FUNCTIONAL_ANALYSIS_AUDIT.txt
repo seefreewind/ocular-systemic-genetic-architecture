@@ -1,0 +1,5 @@
+primary_gene_background=all_unique_protein_coding_genes_from_2096_valid_loci
+background_gene_count=984
+primary_enrichment=PANTHER_GO_BP_with_custom_reference_list
+reactome=descriptive_default_background_only
+causal_gene_claims=NOT_MADE

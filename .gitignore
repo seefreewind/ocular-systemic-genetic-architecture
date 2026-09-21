@@ -1,0 +1,15 @@
+# Do not add source summary statistics, LD panels, large intermediate outputs,
+# local environments, credentials or machine-specific metadata.
+data/
+results/**/inputs/
+results/**/pair_runs/
+results/**/raw_supergnova/
+results/**/signflip/
+results/**/reference_freq/
+*.rds
+*.log
+._*
+.DS_Store
+.venv/
+venv/
+__pycache__/

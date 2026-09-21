@@ -1,0 +1,109 @@
+primary_datasets:
+  AMD:
+    candidate_dataset: IAMDGC_2.0_EUR_lateAMD
+    publication: "Gorski et al., IOVS 2025; IAMDGC 2.0"
+    year: 2025
+    ancestry: European
+    cases: 15616
+    controls: 16723
+    N_total: 32339
+    genome_build: GRCh38
+    source_url: "http://eaglep.case.edu/iamdgc_web-2/wp-content/uploads/2018/01/IAMDGC_lateAMD_related_EUR_annotated.zip"
+    local_raw: data/raw/AMD_IAMDGC2_EUR_lateAMD_annotated.zip
+    notes: "Current IAMDGC 2.0 EUR late-AMD related analysis; source build and exact column availability are verified by archive inspection."
+  POAG:
+    candidate_dataset: GCST90011766_EUR_stage1
+    publication: "Gharahkhani et al., Nature Communications 2021"
+    year: 2021
+    ancestry: European
+    cases: 16677
+    controls: 199580
+    N_total: 216257
+    genome_build: GRCh37
+    source_url: "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90011001-GCST90012000/GCST90011766/GCST90011766_buildGRCh37.tsv.gz"
+    local_raw: data/raw/POAG_GCST90011766_GRCh37.tsv.gz
+    notes: "Stage-1 fixed-effect European meta-analysis; includes UK Biobank among contributing cohorts, so overlap with other biobank-heavy traits remains possible."
+  CAT:
+    candidate_dataset: FinnGen_R10_H7_CATARACTSENILE
+    publication: "FinnGen R10 endpoint H7_CATARACTSENILE"
+    year: 2023
+    ancestry: Finnish-European
+    cases: 65235
+    controls: 363974
+    N_total: 429209
+    genome_build: GRCh38
+    source_url: "https://storage.googleapis.com/finngen-public-data-r10/summary_stats/finngen_R10_H7_CATARACTSENILE.gz"
+    local_raw: data/raw/CAT_FinnGen_R10_H7_CATARACTSENILE.gz
+    notes: "FinnGen R10 direct public object; phenotype page reports 65,235 cases after genotype QC among 429,209 individuals; Finland is treated as European with population-specific caution."
+  CAD:
+    candidate_dataset: GCST90132314_EUR_primary_discovery
+    publication: "Aragam et al., Nature Genetics 2022"
+    year: 2022
+    ancestry: European/NR in Catalog metadata
+    cases: 181522
+    controls: 984168
+    N_total: 1165690
+    genome_build: GRCh37
+    source_url: "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90132001-GCST90133000/GCST90132314/GCST90132314_buildGRCh37.tsv"
+    local_raw: data/raw/CAD_GCST90132314_GRCh37.tsv
+    notes: "Primary discovery meta-analysis; Catalog metadata reports European and NR components and explicitly lists UK Biobank among contributing studies."
+  STROKE:
+    candidate_dataset: GCST90104540_EUR_GIGASTROKE_AIS
+    publication: "GIGASTROKE consortium; GCST90104540"
+    year: 2022
+    ancestry: Predominantly European
+    cases: 62100
+    controls: 1234808
+    N_total: 1296908
+    genome_build: GRCh37
+    source_url: "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90104001-GCST90105000/GCST90104540/GCST90104540_buildGRCh37.tsv.gz"
+    local_raw: data/raw/STROKE_GCST90104540_GRCh37.tsv.gz
+    notes: "Any ischemic stroke / AIS summary statistics; source study describes the sample as predominantly European."
+  T2D:
+    candidate_dataset: DIAMANTE_EUR_2022
+    publication: "Mahajan et al., Nature Genetics 2022; DIAMANTE"
+    year: 2022
+    ancestry: European
+    cases: 80154
+    controls: 853816
+    N_total: 933970
+    genome_build: GRCh37
+    source_url: "https://personal.broadinstitute.org/ryank/DIAMANTE.sumstats.zip"
+    local_raw: data/raw/T2D_DIAMANTE.sumstats.zip
+    notes: "EUR file will be extracted from the downloaded archive into a derived, non-raw harmonized input."
+  CKD:
+    candidate_dataset: CKDGen_Wuttke2019_EA
+    publication: "Wuttke et al., Nature Genetics 2019"
+    year: 2019
+    ancestry: European ancestry
+    cases: 41395
+    controls: 439303
+    N_total: 480698
+    genome_build: GRCh37
+    source_url: "https://ckdgen.imbi.uni-freiburg.de/files/Wuttke2019/CKD_overall_EA_JW_20180223_nstud23.dbgap.txt.gz"
+    local_raw: data/raw/CKD_CKDGen_Wuttke2019_EA.txt.gz
+    notes: "CKD overall dichotomous endpoint from CKDGen European-ancestry summary statistics."
+  AD:
+    candidate_dataset: GCST90027158_EUR_Bellenguez2022
+    publication: "Bellenguez et al., Nature Genetics 2022"
+    year: 2022
+    ancestry: European
+    cases: 85934
+    controls: 401577
+    N_total: 487511
+    genome_build: GRCh38
+    source_url: "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90027001-GCST90028000/GCST90027158/GCST90027158_buildGRCh38.tsv.gz"
+    local_raw: data/raw/AD_GCST90027158_GRCh38.tsv.gz
+    notes: "The public Catalog object is the 487,511-person EADB subset: 39,106 clinical cases + 46,828 proxy cases and 401,577 controls; this differs from the larger Bellenguez meta-analysis totals and is documented as a source-level limitation."
+  PD:
+    candidate_dataset: GCST009325_EUR_Nalls2019
+    publication: "Nalls et al., Nature Genetics 2019"
+    year: 2019
+    ancestry: European
+    cases: 33674
+    controls: 449056
+    N_total: 482730
+    genome_build: GRCh37
+    source_url: "https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST009001-GCST010000/GCST009325/GCST009325.tsv"
+    local_raw: data/raw/PD_GCST009325_GRCh37.tsv
+    notes: "OpenGWAS/Catalog trait includes Parkinson disease or first-degree relation to an affected individual; proxy component is retained and explicitly documented."

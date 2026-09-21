@@ -1,0 +1,8 @@
+frozen_loci=58
+supported_regions=41
+negative_loci=32
+positive_loci=26
+variant_threshold=2.77777777778e-09
+input=results/phase2AR/INDEPENDENT_LOCUS_LOCAL_REGION_MAP.tsv
+new_association_testing=NO
+fine_mapping=NOT_RUN_PUBLIC_LD_ROUTE_CLOSED

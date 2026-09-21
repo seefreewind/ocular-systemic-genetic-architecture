@@ -1,0 +1,2 @@
+pilot_id	pair	trait	model	top_SER_PIP	lead_variant	n_SER_credible_sets	SER_credible_set_width	SER_credible_set	diagnostic_only
+"P2BP08"	"AMD-STROKE"	"STROKE"	"SER_FALLBACK_DIAGNOSTIC"	0.967062233700806	"12:112072424:A:G"	1	1	"12:112072424:A:G"	TRUE

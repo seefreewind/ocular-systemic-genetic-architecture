@@ -1,0 +1,8 @@
+pair	positive_SUPERGNOVA_regions	negative_SUPERGNOVA_regions	positive_regions_with_independent_PLACO_support	negative_regions_with_independent_PLACO_support	positive_direction_concordant_loci	negative_direction_concordant_loci	positive_direction_discordant_loci	negative_direction_discordant_loci
+AMD-CAD	2	2	2	2	6	2	0	0
+AMD-CKD	1	1	1	1	1	1	0	0
+AMD-STROKE	1	1	1	1	3	1	0	0
+AMD-T2D	3	2	3	2	4	6	0	0
+CAT-AD	2	3	2	3	2	6	0	0
+CAT-STROKE	1	1	1	1	1	1	0	0
+POAG-CKD	1	2	0	1	0	1	0	0

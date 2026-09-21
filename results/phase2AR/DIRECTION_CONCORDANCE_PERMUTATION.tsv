@@ -1,0 +1,6 @@
+scope	N_eligible_regions	observed_concordance	observed_fraction	B	null_mean	null_SD	empirical_P	empirical_Z	seed	permutation_rule
+ALL_ELIGIBLE_REGIONS	41	41	1.0	10000	27.7834	3.040461951889563	9.999000099990002e-05	4.346905243062242	20260921	rho sign labels permuted within pair; PLACO lead directions fixed
+NEGATIVE_RHO_REGIONS	24	24	1.0	10000	17.3917	1.5202309759447814	9.999000099990002e-05	4.346905243062242	20260921	rho sign labels permuted within pair; PLACO lead directions fixed
+POSITIVE_RHO_REGIONS	17	17	1.0	10000	10.3917	1.5202309759447814	9.999000099990002e-05	4.346905243062242	20260921	rho sign labels permuted within pair; PLACO lead directions fixed
+HIDDEN_MIXED_PAIRS	21	21	1.0	10000	11.2106	2.6905708608315293	0.00029997000299970003	3.6384100275933844	20260921	rho sign labels permuted within pair; PLACO lead directions fixed
+GLOBAL_POSITIVE_CONTROL_PAIRS	10	10	1.0	10000	6.5728	1.394881618443998	0.027797220277972202	2.4569826963689363	20260921	rho sign labels permuted within pair; PLACO lead directions fixed

@@ -1,0 +1,13 @@
+excluded_chromosome	n_loci_remaining	n_negative_loci	n_positive_loci	n_regions_remaining	n_supported_negative_regions	n_supported_positive_regions	n_pairs_remaining	n_hidden_mixed_pairs_remaining	direction_concordance_fraction	excluded_unit_note
+1	55	30	25	26	18	11	15	7	1.0	leave-one-chromosome-out
+2	51	27	24	25	18	10	15	7	1.0	leave-one-chromosome-out
+4	51	29	22	24	17	10	13	6	1.0	leave-one-chromosome-out
+5	56	31	25	26	18	11	15	7	1.0	leave-one-chromosome-out
+7	51	27	24	25	16	11	14	7	1.0	leave-one-chromosome-out
+9	57	31	26	27	18	12	15	7	1.0	leave-one-chromosome-out
+10	56	30	26	26	17	12	15	7	1.0	leave-one-chromosome-out
+11	54	29	25	26	18	11	15	7	1.0	leave-one-chromosome-out
+12	50	32	18	27	19	11	15	7	1.0	leave-one-chromosome-out
+16	53	30	23	26	17	11	15	7	1.0	leave-one-chromosome-out
+17	47	25	22	23	15	10	13	7	1.0	leave-one-chromosome-out
+22	57	31	26	27	18	12	15	7	1.0	leave-one-chromosome-out

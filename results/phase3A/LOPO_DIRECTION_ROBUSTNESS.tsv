@@ -1,0 +1,16 @@
+excluded_pair	n_loci_remaining	n_negative_loci	n_positive_loci	n_regions_remaining	n_supported_negative_regions	n_supported_positive_regions	n_pairs_remaining	n_hidden_mixed_pairs_remaining	direction_concordance_fraction	excluded_unit_note
+AMD-CAD	50	30	20	27	18	12	14	6	1.0	leave-one-pair-out
+AMD-CKD	56	31	25	28	19	12	14	6	1.0	leave-one-pair-out
+AMD-PD	57	31	26	28	19	12	14	7	1.0	leave-one-pair-out
+AMD-STROKE	54	31	23	28	19	12	14	6	1.0	leave-one-pair-out
+AMD-T2D	48	26	22	27	19	10	14	6	1.0	leave-one-pair-out
+CAT-AD	50	26	24	24	17	10	14	6	1.0	leave-one-pair-out
+CAT-CAD	55	32	23	26	19	10	14	7	1.0	leave-one-pair-out
+CAT-CKD	57	31	26	28	18	12	14	7	1.0	leave-one-pair-out
+CAT-PD	57	31	26	27	18	12	14	7	1.0	leave-one-pair-out
+CAT-STROKE	56	31	25	27	18	12	14	6	1.0	leave-one-pair-out
+CAT-T2D	49	29	20	24	17	10	14	7	1.0	leave-one-pair-out
+POAG-CAD	53	27	26	25	15	12	14	7	1.0	leave-one-pair-out
+POAG-CKD	57	31	26	28	19	12	14	6	1.0	leave-one-pair-out
+POAG-STROKE	57	31	26	28	19	12	14	7	1.0	leave-one-pair-out
+POAG-T2D	56	30	26	26	17	12	14	7	1.0	leave-one-pair-out

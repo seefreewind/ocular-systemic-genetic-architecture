@@ -1,0 +1,30 @@
+project:
+  title: "Pleiotropic conflict shapes the genetic architecture of comorbidity between ocular and systemic diseases"
+  phase_scope: "Phase 0 and baseline Phase 1 only"
+  ancestry: "European / predominantly European only"
+  preferred_build: GRCh37
+  current_build_policy: "Retain the source build; document GRCh38 deviations and defer liftover to later local analyses"
+
+phase0:
+  min_full_summary_stats: true
+  required_columns: [beta, se, effect_allele, other_allele, p_value]
+  preferred_columns: [eaf, chromosome, base_pair_location, variant_id]
+  min_snp_heritability_z: 4
+  conditional_snp_heritability_z_min: 2
+  conditional_snp_heritability_z_max: 4
+  major_qc_flags: [missing_beta_or_se, non_european_or_mixed_ancestry, malformed_alleles, extreme_intercept]
+  go_rule: "All 3 ocular phenotypes usable and at least 4 of 6 systemic phenotypes usable, with AMD/POAG/CAD/T2D/AD preferred and no catastrophic harmonization failure"
+  verdicts: [GO, CONDITIONAL_GO, HOLD]
+
+phase1_global:
+  method: "LDSC univariate h2 and pairwise global rg"
+  regression_snp_set: "1000G Phase 3 EUR LD scores with HapMap3 merge-allele restriction"
+  pair_count: 36
+  multiple_testing: "Benjamini-Hochberg FDR across all 36 pairwise rg tests"
+  nominal_rg_threshold: 0.05
+  fdr_threshold: 0.05
+  phase1_scope: "Baseline global rg only; no local rg, pleiotropy, colocalization, fine-mapping, or functional analyses"
+
+prevalence:
+  policy: "Use reported case/control sample prevalence for the initial LDSC liability-scale conversion because a consistent population-prevalence definition is not available across all nine endpoints; retain observed-scale h2 as the primary QC quantity."
+  warning: "Liability-scale values are screening estimates and are not clinical prevalence estimates."

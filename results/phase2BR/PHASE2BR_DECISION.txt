@@ -1,0 +1,19 @@
+PHASE 2B-R DECISION
+final_verdict=PARTIAL_LD_RESCUE
+next_step=STOP_FINE_MAPPING_PERMANENTLY_WITH_PUBLIC_LD
+panukbb_eur_n_samples=420542
+eligible_loci=7
+regional_coverage_pass=7/7
+primary_fits=14/14
+reliable_primary_fits=7/14
+rescued_fits=13/14
+partially_rescued_fits=1/14
+reliable_pairs=1/7
+strong_shared_signals=1
+antagonistic_upgrades=0
+concordant_upgrades=0
+ser_fallback_records=1
+p2bp01_status=NOT_ANALYZED_PHASE2BR
+cat_status=FINNISH_LD_DEFERRED
+lava_status=PENDING_LOCAL_METHOD_REPLICATION
+hdl_l_status=SECONDARY_PENDING_EXACT_N0
