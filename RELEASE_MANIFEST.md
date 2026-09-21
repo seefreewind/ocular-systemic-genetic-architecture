@@ -2,6 +2,13 @@
 
 Release owner: `seefreewind`
 
+## Attribution
+
+Authors: Da Lin, Ying Chen, Yue Liu and Yu Zhang. The author affiliations, corresponding-author contact and ORCID are recorded in `CITATION.cff` and the repository README.
+
+Funding: none.<br>
+Competing interests: none declared.
+
 ## Included
 
 - Core Python, R and shell scripts for phases 1A, 1D, 2A, 2AR, 2BR and 3A.

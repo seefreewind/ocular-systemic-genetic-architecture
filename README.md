@@ -2,6 +2,24 @@
 
 This public release contains the reproducibility code, prespecified configuration, derived summary tables, audit reports and figures for a cross-trait genetic-architecture atlas spanning three ocular phenotypes and six systemic phenotypes.
 
+## Authors and correspondence
+
+- Da Lin¹ — Department of Ophthalmology, The Second Affiliated Hospital of Wenzhou Medical University
+- Ying Chen² — Wenzhou Medical University
+- Yue Liu² — Wenzhou Medical University
+- Yu Zhang¹ — Department of Ophthalmology, The Second Affiliated Hospital of Wenzhou Medical University
+
+¹ Department of Ophthalmology, The Second Affiliated Hospital of Wenzhou Medical University, No. 109 Xueyuan West Road, Lucheng District, Wenzhou, Zhejiang Province, China<br>
+² Wenzhou Medical University, Wenzhou, Zhejiang Province, China
+
+Corresponding author: Yu Zhang — zhangyu1@wzhealth.com<br>
+ORCID: [0000-0001-8579-3692](https://orcid.org/0000-0001-8579-3692)
+
+Funding: none.<br>
+Competing interests: none declared.
+
+The preferred citation metadata are provided in [`CITATION.cff`](CITATION.cff). The Zenodo archive is versioned separately from the GitHub repository; the current archive record is [10.5281/zenodo.22874304](https://doi.org/10.5281/zenodo.22874304).
+
 The release is organized around the completed analysis layers:
 
 - genome-wide LDSC pairwise genetic correlation;

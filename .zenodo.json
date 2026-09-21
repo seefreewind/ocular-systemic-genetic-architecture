@@ -1,0 +1,46 @@
+{
+  "title": "Ocular-systemic genetic architecture atlas: reproducibility code and derived outputs",
+  "description": "Reproducible code and derived outputs for a cross-trait genetic-architecture atlas spanning three ocular phenotypes and six systemic phenotypes. This release includes portable analysis scripts, frozen configuration, derived summary tables, audit reports, and figures. Raw GWAS summary statistics, consortium-restricted files, LD reference panels, and large genome-wide intermediate tables are excluded and must be obtained from their original providers under the applicable access and citation terms. Funding: none. Competing interests: none declared.",
+  "creators": [
+    {
+      "name": "Lin, Da",
+      "affiliation": "Department of Ophthalmology, The Second Affiliated Hospital of Wenzhou Medical University"
+    },
+    {
+      "name": "Chen, Ying",
+      "affiliation": "Wenzhou Medical University"
+    },
+    {
+      "name": "Liu, Yue",
+      "affiliation": "Wenzhou Medical University"
+    },
+    {
+      "name": "Zhang, Yu",
+      "affiliation": "Department of Ophthalmology, The Second Affiliated Hospital of Wenzhou Medical University",
+      "orcid": "0000-0001-8579-3692"
+    }
+  ],
+  "version": "1.1",
+  "publication_date": "2026-09-21",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "language": "eng",
+  "keywords": [
+    "genome-wide association study",
+    "genetic architecture",
+    "cross-trait analysis",
+    "LDSC",
+    "SUPERGNOVA",
+    "PLACO+",
+    "ocular phenotypes",
+    "systemic diseases"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/seefreewind/ocular-systemic-genetic-architecture/tree/1.1",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    }
+  ]
+}

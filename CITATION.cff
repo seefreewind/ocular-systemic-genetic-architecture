@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this software or derived outputs, please cite this release and the Zenodo record."
+title: "Ocular-systemic genetic architecture atlas"
+type: software
+version: "1.1"
+date-released: 2026-09-21
+abstract: >-
+  Reproducible code and derived outputs for a cross-trait genetic-architecture atlas
+  spanning three ocular phenotypes and six systemic phenotypes. The release includes
+  portable analysis scripts, frozen configuration, derived summary tables, audit reports,
+  and figures. Raw GWAS summary statistics, consortium-restricted files, LD reference
+  panels, and large genome-wide intermediate tables are excluded and must be obtained
+  from their original providers under the applicable access and citation terms.
+authors:
+  - family-names: Lin
+    given-names: Da
+    affiliation: Department of Ophthalmology, The Second Affiliated Hospital of Wenzhou Medical University
+  - family-names: Chen
+    given-names: Ying
+    affiliation: Wenzhou Medical University
+  - family-names: Liu
+    given-names: Yue
+    affiliation: Wenzhou Medical University
+  - family-names: Zhang
+    given-names: Yu
+    affiliation: Department of Ophthalmology, The Second Affiliated Hospital of Wenzhou Medical University
+    orcid: "https://orcid.org/0000-0001-8579-3692"
+contact:
+  - family-names: Zhang
+    given-names: Yu
+    email: zhangyu1@wzhealth.com
+    orcid: "https://orcid.org/0000-0001-8579-3692"
+repository-code: https://github.com/seefreewind/ocular-systemic-genetic-architecture
+keywords:
+  - genome-wide association study
+  - genetic architecture
+  - cross-trait analysis
+  - LDSC
+  - SUPERGNOVA
+  - PLACO+
+  - ocular phenotypes
+  - systemic diseases
