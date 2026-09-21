@@ -18,7 +18,7 @@ ORCID: [0000-0001-8579-3692](https://orcid.org/0000-0001-8579-3692)
 Funding: none.<br>
 Competing interests: none declared.
 
-The preferred citation metadata are provided in [`CITATION.cff`](CITATION.cff). The Zenodo archive is versioned separately from the GitHub repository; the current archive record is [10.5281/zenodo.22874304](https://doi.org/10.5281/zenodo.22874304).
+The preferred citation metadata are provided in [`CITATION.cff`](CITATION.cff). The Zenodo archive is versioned separately from the GitHub repository. This release is archived as [10.5281/zenodo.22874563](https://doi.org/10.5281/zenodo.22874563); the concept DOI for all versions is [10.5281/zenodo.22874303](https://doi.org/10.5281/zenodo.22874303).
 
 The release is organized around the completed analysis layers:
 
